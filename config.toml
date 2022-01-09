@@ -1,0 +1,24 @@
+baseURL = "https://shanebarry.com"
+title = "Shane B."
+theme = "etch"
+languageCode = "en-US"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+ignoreErrors = ["error-missing-instagram-accesstoken"]
+
+[params]
+  description = "Shane B. Writing"
+  copyright = "Copyright © 2021 Shane Barry"
+  dark = "auto"
+  highlight = true
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allow HTML in Markdown
+  unsafe = true
+
+  [markup.tableOfContents]
+    ordered = true
